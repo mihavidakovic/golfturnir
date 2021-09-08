@@ -1,0 +1,7 @@
+.gradient-bg {
+  background: black;
+  background: -webkit-gradient(linear, left bottom, left top, from(black), to(#2c2c2c));
+  background: linear-gradient(0deg, black 0%, #2c2c2c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#2c2c2c",GradientType=1);
+}
+/*# sourceMappingURL=main.css.map */
