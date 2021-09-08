@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Gallery from '../components/Gallery'
-import VideoJS from '../components/VideJs'
+import VideoJS from '../components/VideoJs'
 
 export default function Home() {
   return (
@@ -21,9 +21,7 @@ export default function Home() {
           <img src="/img/logo.png" className="w-36 mb-12" />
           <img src="/img/text.png" className="w-96" />
         </div>
-        <div className="my-12 md:my-20 px-4 md:px-0 w-full flex">
-          <VideoJS />
-        </div>
+        <VideoJS />
         <div className="mb-12">
           <Gallery number={227} />
         </div>
