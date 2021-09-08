@@ -6,10 +6,10 @@ export default function Gallery({ number }) {
 
     function getImages(num) {
         let all = []
-        for (let index = 0; index < num; index++) {
+        for (let index = 1; index < num; index++) {
             all.push({
-                imageUrl: "http://images.24ur.com/media/images/golf-turnir/" + index + ".jpg",
-                thumbUrl: "http://images.24ur.com/media/images/golf-turnir/thumbnails/" + index + ".jpg"
+                imageUrl: "https://assets.24ur.si/popgolfturnir/" + index + ".jpg",
+                thumbUrl: "https://assets.24ur.si/popgolfturnir/thumbnails/" + index + ".jpg"
             })
         }
 
