@@ -27,7 +27,9 @@ export default function Gallery({ number }) {
         },
         caption: {},
         buttons: {
-            showDownloadButton: false
+            showDownloadButton: false,
+            showNextButton: true,
+            showPrevButton: true
         },
         thumbnails: {
             showThumbnails: false
