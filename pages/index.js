@@ -7,11 +7,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Golf turnir</title>
-        <meta name="description" content="" />
+        <title>POP golf turnir</title>
+        <meta name="description" content="Galerija POP VOYO golf turnir" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <meta name="robots" content="noindex" />
       </Head>
       <div className="hidden md:block fixed h-full w-container left-1/2 top-0 transform -translate-x-1/2 z-10">
         <img src="/img/palica.png" className="w-36 absolute bottom-24 -left-52" />
