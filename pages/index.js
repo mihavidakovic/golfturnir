@@ -9,12 +9,14 @@ export default function Home() {
       <Head>
         <title>Golf turnir</title>
         <meta name="description" content="" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       </Head>
       <div className="hidden md:block fixed h-full w-container left-1/2 top-0 transform -translate-x-1/2 z-10">
         <img src="/img/palica.png" className="w-36 absolute bottom-24 -left-52" />
         <img src="/img/zogica.png" className="w-12 absolute bottom-96 -right-32" />
-        </div>
+      </div>
 
       <main className="container flex flex-col items-center relative z-20">
         <div className="flex flex-col items-center w-64 mt-16 md:mt-40">
@@ -23,7 +25,7 @@ export default function Home() {
         </div>
         <VideoJS />
         <div className="mb-12">
-          <Gallery number={227} />
+          <Gallery number={228} />
         </div>
       </main>
 
